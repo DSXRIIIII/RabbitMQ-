@@ -1,0 +1,19 @@
+spring:
+  rabbitmq:
+    host: 47.113.228.37
+    port: 5672
+    virtual-host: /
+    username: dsxriiiii
+    password: 123456
+
+mq:
+  listener:
+    fanout:
+      award: mq.fanout.dome.award
+      rebate: mq.fanout.dome.rebate
+    direct:
+      award: mq.direct.dome.award
+      rebate: mq.direct.dome.rebate
+    topic:
+      award: mq.topic.dome.award
+      rebate: mq.topic.dome.rebate

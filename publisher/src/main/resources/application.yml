@@ -1,0 +1,17 @@
+server:
+  port: 8092
+
+spring:
+  rabbitmq:
+    host: 47.113.228.37
+    port: 5672
+    virtual-host: /
+    username: dsxriiiii
+    password: 123456
+
+mq:
+  server:
+    award: mq.dome.award
+    rebate: mq.dome.rebate
+
+
