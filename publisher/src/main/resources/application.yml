@@ -3,11 +3,11 @@ server:
 
 spring:
   rabbitmq:
-    host: 47.113.228.37
+    host: 47.113.**.37
     port: 5672
     virtual-host: /
-    username: dsxriiiii
-    password: 123456
+    username: your_name
+    password: your_password
 
 mq:
   server:
